@@ -46,3 +46,28 @@ const prinAdvice = () => {
 };
 
 buttonElement.addEventListener('click', prinAdvice);
+/*
+cons printAdvice = data =>{
+  const idAdvice = adviceData.slip.id;
+  const advice = adviceData.slip.advice;
+  textElement.textContent = advice;
+  spanElement.textContent = `ADVICE #${idAdvice}
+  
+  }
+
+  const getAdvice = async () =>  {
+  try {
+    const response = await fetch(https://api.adviceslip.com/advice);
+    const data = await response.json();
+    console.log(data);
+    return data;
+  } catch (error) {
+    console.error('Error fetching advice:', error);
+    //return null;
+  }
+};
+
+
+buttonElement.addEventListener('click', getAdvice);
+
+  */
